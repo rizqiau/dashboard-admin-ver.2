@@ -25,7 +25,7 @@ function PrivateRoute() {
             <div className="flex flex-col sm:flex-row justify-between sm:w-11/12 lg:w-full">
               <img className="w-32 ml-4" src={logo} alt="logo" />
               <div className="flex items-center">
-                <p className="sm:text-xl ml-8 mr-2">admin</p>
+                <p className="sm:text-xl ml-8 mr-2">Admin</p>
                 <button
                   onClick={logout}
                   title="keluar"
@@ -82,7 +82,7 @@ function PrivateRoute() {
                       to="/profile"
                       className="hover:text-secondary-blue"
                     >
-                      <i className="ri-profile-line mr-2"></i>profile hotel
+                      <i className="ri-profile-line mr-2"></i>Profil Hotel
                     </Link>
                   </div>
                 </details>
